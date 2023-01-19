@@ -148,3 +148,13 @@ i {
 i:hover {
   color: #4e585f;
 }
+
+@media screen and (min-width: 255px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px;
+  }
+}
