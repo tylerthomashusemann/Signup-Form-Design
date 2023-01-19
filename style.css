@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom right, #27c6da, #5b6cc0);
+  background: linear-gradient(to bottom right, #0ac9b6, #0a175b);
 }
 
 .signup-wrap {
@@ -41,10 +41,10 @@ body {
 
 h2 {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
   text-align: center;
   margin-bottom: 32px;
-  color: #3a99d0;
+  color: #0ac9b6;
 }
 
 .input-wrap {
@@ -76,8 +76,8 @@ input {
 
 input:focus {
   outline: none;
-  box-shadow: 0 1px 0 0 #88d9fc;
-  border-color: #88d9fc;
+  box-shadow: 0 1px 0 0 #3a99d0;
+  border-color: #3a99d0;
 }
 
 input[type="checkbox"] {
@@ -99,7 +99,7 @@ button {
   font-weight: 600;
   border: none;
   color: #fff;
-  background-color: #3a99d0;
+  background-color: #0ac9b6;
   margin-right: 16px;
   transition: 500ms ease all;
 }
@@ -113,7 +113,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #00b0f3;
+  background-color: #0ac9b6;
   padding: 60px 40px 40px;
   color: #fff;
 }
